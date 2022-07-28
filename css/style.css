@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-image: url("../assets/bg.png");
+}
+
+.header{
+    position: relative;
+    margin:0px 100px;
+    height: 80px;
+}
+
+.logo{
+    position: absolute;
+    top:0px;
+    left:0px;
+    bottom: 0px;
+    margin:auto 0px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.nav{
+    position: absolute;
+    top:0px;
+    left:150px;
+    bottom: 0px;
+    margin:auto 0px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav-item{
+    display: inline;
+    margin:0px 30px;
+}
+
+.buytoken{
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    margin:auto 0px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.content{
+    text-align: center;
+    margin:100px 200px 300px 200px;
+}
+
+.heading{
+    font-size: 40px;
+}
+
+.quote{
+    font-size: 25px;
+}
