@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 *{
     padding:0px;
     margin:0px;
@@ -9,8 +11,12 @@ body{
 
 .header{
     position: relative;
-    margin:0px 100px;
-    height: 80px;
+    height: 90px;
+    background-color: #000000;
+}
+
+.header div{
+    padding:0px 100px;
 }
 
 .logo{
@@ -23,8 +29,17 @@ body{
     height: fit-content;
 }
 
+.logo::after{
+    content: "";
+    display: inline-block;
+    border-right:1px solid #ffffff;
+    height: 50px;
+    margin-left:30px;
+}
+
 .logo img{
-    width: 120px;
+    width: 100px;
+    padding:5px;
 }
 
 .nav{
@@ -42,6 +57,24 @@ body{
     margin:0px 30px;
 }
 
+.nav-item.active::after{
+    content: "";
+    display: inline-block;
+    width:6px;
+    height: 6px;
+    border-right:3px solid #ffffff;
+    border-bottom:3px solid #ffffff;
+    transform: rotate(45deg);
+    margin-left:10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
 .buytoken{
     position: absolute;
     top:0px;
@@ -52,6 +85,17 @@ body{
     height: fit-content;
 }
 
+.buytoken button{
+    padding:10px 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #BA0CC5;
+    color:#ffffff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
 .content{
     text-align: center;
     margin:100px 200px 300px 200px;
@@ -59,8 +103,29 @@ body{
 
 .heading{
     font-size: 40px;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
-.quote{
+.quote h4{
     font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+}
+
+.request-button{
+    margin:20px 0px;
+}
+
+.request-button button{
+    padding:20px 50px;
+    border:none;
+    border-radius: 10px;
+    background-color: #BA0CC5;
+    color:#ffffff;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
