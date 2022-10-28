@@ -1,4 +1,6 @@
-# Landing Page Project #5
+# FSJS Course | HTML & CSS Project #5
+
+## Crypto Landing page : [Deployed Link](https://rad-beignet-b991e2.netlify.app/)
 ![Screenshot 2022-08-19 at 07-53-50 Crypto Landing page](https://user-images.githubusercontent.com/43786036/185529122-f812a360-719d-46dd-bd0f-17046486a61c.png)
 
 ## Highlights
